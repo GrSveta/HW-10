@@ -1,0 +1,70 @@
+html, body {
+    margin:0;padding:0;
+}
+html{
+    background-color: rgb(233, 230, 230);
+}
+.main {
+    margin:0 auto; 
+    width:100%; 
+    max-width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.td1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+    
+.bgcolor, .txtcolor
+{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+.change_size button{
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: aquamarine;
+    font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.td2 {
+    height: 300px;
+}
+textarea {
+    margin-top: 30px;
+    padding: 25px;
+    width: 500px;
+    height: 250px;
+}
+.td3 {
+    margin-top:35px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.change_size {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.change_tcolor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;   
+}
